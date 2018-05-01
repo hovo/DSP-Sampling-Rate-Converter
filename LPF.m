@@ -1,5 +1,5 @@
 %{
-First Order Low Pass FIR Filter
+First Order Low Pass IIR Filter
 Source: http://sip.cua.edu/res/docs/courses/ee515/chapter04/ch4-5.pdf 
 %}
 function out = LPF(M)
