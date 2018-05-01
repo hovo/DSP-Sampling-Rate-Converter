@@ -11,7 +11,7 @@ Example: Sample an audio file from 44.1 kHz to 32kHz in order to transmit it thr
 - Open MATLAB and double click on **rateConverter.mlapp**
 
 ## GUI
-![](App_scr.jpg)
+![](App_scr.png)
 
 ## Citation
 - [Rational Sampling Rate Converter using Coefficient Symmetry](https://pdfs.semanticscholar.org/c98d/c12c3292a2780e5dfe5be8bb22d4298889dd.pdf)
