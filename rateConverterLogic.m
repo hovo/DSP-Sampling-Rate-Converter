@@ -29,8 +29,8 @@ function rateConverterLogic(x, L, M, desiredFreq)
     % Downsample the interpolated signal by a factor of M
     downsampled_x = myDownsample(interpolated_x, M);
 
-    % Accomadte for power loss: Multiply by constant gain factor of 100
-    downsampled_x = downsampled_x.*100;
+    % Accomadte for power loss: Multiply by constant gain factor of 1000
+    downsampled_x = downsampled_x.*1000;
 
     % % Play the audio at desired frequency
     sound(downsampled_x, desiredFreq);
