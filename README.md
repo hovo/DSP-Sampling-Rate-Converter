@@ -7,8 +7,14 @@ Sample-rate conversion is the process of changing the sampling rate of a discret
 Example: Sample an audio file from 44.1 kHz to 32kHz in order to transmit it through a low-bandwidth communication link.
 
 ## Instructions
+Using App Designer
 - Ensure you have **app designer** installed for MATLAB
 - Open MATLAB and double click on **rateConverter.mlapp**
+
+Without App Designer
+- Double click on **SamplingRateConverter.mlappinstall**
+- Press on **Install** Button
+- The application can be accessed from the **APPS** tab of Matlab
 
 ## GUI
 ![](App_scr.png)
