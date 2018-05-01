@@ -1,7 +1,9 @@
 # Sampling Rate Converter
 
 ## What is it?
-Sample-rate conversion is the process of changing the sampling rate of a discrete signal to obtain a new discrete representation of the underlying continuous signal.
+Sample-rate conversion is the process of changing the sampling rate of a discrete signal to obtain a new discrete representation of the underlying continuous signal. The following block diagram shows the basic implementation of a sampling rate converter. 
+
+![](block_diagram.png)
 
 ## Applications
 Example: Sample an audio file from 44.1 kHz to 32kHz in order to transmit it through a low-bandwidth communication link.
